@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".fragment.AnalyseFragment">
+
+    <!-- ScrollView to make the charts scrollable -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!-- LinearLayout to hold both the PieChart and BarChart -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+            <!-- PieChart with content description for accessibility -->
+            <com.github.mikephil.charting.charts.PieChart
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:id="@+id/pieChart"
+                    android:contentDescription="Pie chart representing data distribution"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:text="消费类型占比分析图"
+                      android:textColor="@color/black"
+                      android:gravity="center"/>
+            <!-- BarChart with content description for accessibility -->
+            <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:contentDescription="Bar chart representing data values"
+                    android:layout_marginTop="40dp"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:paddingTop="20dp"
+                      android:paddingBottom="10dp"
+                      android:textColor="@color/black"
+                      android:text="各类型消费金额统计"
+                      android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              tools:context=".fragment.LoginFragment">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="vertical">
+        <EditText android:id="@+id/phone"
+                  android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:maxLines="1"
+                  android:minLines="1"
+                  android:textSize="@dimen/inputhint"
+                  android:minHeight="48dp"
+                  android:background="@drawable/inputtext_bg"
+                  android:paddingLeft="10dp"
+                  android:layout_marginTop="15dp"
+                  android:textColorHint="@color/DarkKhaki"
+                  android:textColor="@color/Tomato"
+                  android:inputType="number"
+                  android:maxLength="11"
+                  android:hint="@string/inputphone"/>
+
+
+        <EditText android:id="@+id/password"
+                  android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:maxLines="1"
+                  android:minLines="1"
+                  android:textSize="@dimen/inputhint"
+                  android:minHeight="48dp"
+                  android:background="@drawable/inputtext_bg"
+                  android:layout_marginTop="5dp"
+                  android:paddingLeft="10dp"
+                  android:textColorHint="@color/DarkKhaki"
+                  android:textColor="@color/Tomato"
+                  android:inputType="textPassword"
+                  android:hint="@string/inputpassword"/>
+
+        <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <CheckBox android:id="@+id/save_password"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:button="@null"
+                      android:drawableStart="@drawable/checkbo_style"
+                      android:text="@string/savepassword"/>
+            <CheckBox android:id="@+id/yinsi1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:button="@null"
+                      android:drawableStart="@drawable/checkbo_style"
+                      android:text="@string/yinsixieyi"/>
+            <CheckBox android:id="@+id/yinsi2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:button="@null"
+                      android:drawableStart="@drawable/checkbo_style"
+                      android:text="@string/ruanjianxieyi"/>
+        </LinearLayout>
+        <Button android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:id="@+id/login"
+                android:textSize="@dimen/inputhint"
+                android:background="@drawable/btn_style"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

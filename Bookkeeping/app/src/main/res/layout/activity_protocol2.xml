@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".page.Protocol2Activity">
+    <include layout="@layout/editnote_header"/>
+
+    <LinearLayout android:id="@+id/goP1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_gravity="end"
+                  android:gravity="right">
+        <TextView android:layout_width="wrap_content"
+                  android:text="软件使用协议"
+                  android:layout_gravity="center"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"/>
+        <ImageView  android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/right"
+                    android:layout_marginRight="20dp"
+        />
+
+
+    </LinearLayout>
+
+    <WebView android:id="@+id/Protocol2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

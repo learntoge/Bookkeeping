@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".page.AboutdevelopersActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="8dp"
+                  android:background="@color/Lavender"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:id="@+id/goback"
+                   android:src="@drawable/goback1"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:text="作者信息"
+                  android:textColor="@color/DoderBlue"
+                  android:layout_weight="1"
+                  android:gravity="center"/>
+        <ImageView android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:visibility="invisible"
+                   android:src="@drawable/goback2"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="20dp"
+                  android:paddingTop="15dp"
+                  android:paddingBottom="15dp"
+                  android:background="@drawable/aboutme_bg"
+                  android:orientation="vertical">
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="130dp"
+                   android:layout_gravity="top|center"
+                   android:background="@color/DoderBlue"
+                   android:padding="10dp"
+                   android:layout_marginBottom="6dp"
+                   android:src="@drawable/me"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="姓名："
+                      android:gravity="right"
+                      android:textColor="@color/teal_700"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/teal_200"
+                      android:text="Bug"
+                      android:gravity="start|center"
+                      android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="学号："
+                      android:gravity="right"
+                      android:textColor="@color/teal_700"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/teal_200"
+                      android:text="202224430000"
+                      android:gravity="start|center"
+                      android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="班级："
+                      android:gravity="right"
+                      android:textColor="@color/teal_700"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/teal_200"
+                      android:text="22q计科0班"
+                      android:gravity="start|center"
+                      android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="学校："
+                      android:gravity="right"
+                      android:textColor="@color/teal_700"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/teal_200"
+                      android:text="华北理工大学轻工学院"
+                      android:gravity="start|center"
+                      android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="专业："
+                      android:gravity="right"
+                      android:textColor="@color/teal_700"
+                      android:textSize="22sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:textColor="@color/teal_200"
+                      android:text="计算机科学与技术"
+                      android:gravity="start|center"
+                      android:textSize="20sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

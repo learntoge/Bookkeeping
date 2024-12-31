@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inputhint">18sp</dimen>
+    <dimen name="bottom_img_size">40dp</dimen>
+</resources>

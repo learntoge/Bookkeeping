@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:background="@drawable/login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".page.loginPageActivity">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:layout_marginTop="100dp"
+                          android:orientation="horizontal">
+                <TextView android:id="@+id/changelgfm"
+                          android:layout_width="60dp"
+                          android:layout_height="wrap_content"
+                          android:textSize="20sp"
+                          android:gravity="center"
+                          android:background="@drawable/btn_bg"
+                          android:text="@string/login"/>
+                <TextView android:id="@+id/changerefm"
+                          android:layout_width="60dp"
+                          android:layout_height="wrap_content"
+                          android:textSize="20sp"
+                          android:layout_marginLeft="10dp"
+                          android:background="@drawable/btn_bg"
+                          android:gravity="center"
+                          android:text="@string/register"/>
+            </LinearLayout>
+
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/LR_fram"/>
+
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="《一  言》"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:paddingLeft="20dp"
+                      android:paddingRight="20dp"
+                      android:layout_marginTop="30dp"
+            />
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text=""
+                      android:textSize="18sp"
+
+                      android:paddingLeft="20dp"
+                      android:paddingRight="20dp"
+                      android:textColor="@color/login_bg_begin"
+                      android:id="@+id/yiyan1"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text=""
+                      android:gravity="end"
+                      android:paddingLeft="20dp"
+                      android:paddingRight="20dp"
+                      android:textColor="@color/Tomato"
+                      android:textSize="18sp"
+                      android:id="@+id/from_and_who"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

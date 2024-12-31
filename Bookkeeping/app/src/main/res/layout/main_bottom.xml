@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="7dp"
+        android:background="@drawable/bottom_nav_bg">
+    <LinearLayout android:id="@+id/home"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+        <ImageView android:layout_width="@dimen/bottom_img_size"
+                   android:layout_height="@dimen/bottom_img_size"
+                   android:src="@drawable/bottom_home"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="首页"
+                  android:textColor="@color/black"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/fenxi"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+        <ImageView android:layout_width="@dimen/bottom_img_size"
+                   android:layout_height="@dimen/bottom_img_size"
+                   android:src="@drawable/bottom_fenxi"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="消费分析"
+                  android:textColor="@color/black"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/jishiben"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+        <ImageView android:layout_width="@dimen/bottom_img_size"
+                   android:layout_height="@dimen/bottom_img_size"
+                   android:src="@drawable/bottom_biji"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/black"
+                  android:text="记事本"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/user"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+        <ImageView android:layout_width="@dimen/bottom_img_size"
+                   android:layout_height="@dimen/bottom_img_size"
+                   android:src="@drawable/bottom_user"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="个人中心"
+                  android:textColor="@color/black"
+                  android:textSize="12sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

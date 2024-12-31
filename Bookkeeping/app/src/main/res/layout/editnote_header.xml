@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:background="@color/FloralWhite"
+        android:layout_height="wrap_content">
+    <ImageView android:id="@+id/goback"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/goback1"/>
+    <TextView android:id="@+id/title"
+            android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:text="编辑笔记"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/black"
+              android:gravity="center"
+              android:layout_weight="1"/>
+    <ImageView android:id="@+id/savetext"
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/save1"/>
+
+</LinearLayout>

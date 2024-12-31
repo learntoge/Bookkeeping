@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">省钱记</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">登录</string>
+    <string name="inputphone">请输入手机号</string>
+    <string name="inputcode">请输入验证码</string>
+    <string name="inputpassword">请输入密码</string>
+    <string name="enterpassword">请确认密码</string>
+    <string name="getcode">获取验证码</string>
+    <string name="savepassword">保存密码</string>
+    <string name="nextskiplogin">下次无需登录</string>
+    <string name="register">注册</string>
+    <string name="ruanjianxieyi">《软件使用协议》</string>
+    <string name="yinsixieyi">《隐私保护策略》</string>
+    <string name="AppVersion">1.0.0-beta</string>
+
+
+</resources>
